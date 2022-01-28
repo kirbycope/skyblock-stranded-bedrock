@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Invisible Chest Minecart",
+		"description": "Invisible Chest Minecart Behavior Pack",
+		"uuid": "a5aa23c7-07c4-465c-aa20-6e298d94ea4c",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "b635ac22-cee0-4ebc-8132-57b7a583d113",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "3a1001b9-a51b-47cd-abc3-8031a270ff37",
+			"version": [1, 0, 0]
+		}
+	]
+}
