@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cope:skyblock_star",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "apple",
+            "minecraft:use_animation": "eat",
+            "minecraft:render_offsets": "apple"
+        }
+    }
+}
