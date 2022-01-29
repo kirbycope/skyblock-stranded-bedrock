@@ -2,7 +2,10 @@
     "format_version": "1.10",
     "minecraft:item": {
         "description": {
-            "identifier": "cope:skyblock_star"
+            "identifier": "cope:skyblock_star",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
         },
         "components": {
             "minecraft:hand_equipped": false,
