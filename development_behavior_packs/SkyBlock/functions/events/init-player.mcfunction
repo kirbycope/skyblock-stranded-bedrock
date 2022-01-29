@@ -2,8 +2,7 @@
 tag @a[tag=!init] add init
 
 # Chest Menu - Menu Item
-scoreboard players set @s menu-stars 1
-replaceitem entity @s slot.hotbar 8 cope:skyblock_star
+replaceitem entity @s slot.hotbar 8 cope:skyblock_star 1 0 {"item_lock": { "mode": "lock_in_inventory" }, "keep_on_death": {} }
 
 # Welcome message
 tellraw @a {"rawtext":[{"text":"§e▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂\n"},{"text":"§fWelcome to SkyBlock!\n"},{"text":"§eThis is your island! It is all you have. You are "},{"text":"§cstranded"},{"text":"§e. See how far you can progress without ever leaving your island! All collections are attainable, though some are harder to find than others.\nHave fun!\n"},{"text":"§e▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"}]}
