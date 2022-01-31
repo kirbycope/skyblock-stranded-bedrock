@@ -1,3 +1,5 @@
+[![SkyBlock Stranded](https://github.com/kirbycope/skyblock-stranded-bedrock/raw/main/skyblock-stranded.png)](https://www.youtube.com/watch?v=e2r2ZbhwbSE)
+
 # skyblock-stranded-bedrock
 Stranded is a Gamemode where the player cannot leave their Private Island, just like in the "classic" Skyblock gamemode.
 
