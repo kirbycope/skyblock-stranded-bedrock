@@ -22,3 +22,4 @@ scoreboard players set "  " skyblock-sidebar 4
 scoreboard players set " Purse: §60.0" skyblock-sidebar 3
 scoreboard players set " " skyblock-sidebar 2
 scoreboard players set " www.hypixel.net" skyblock-sidebar 1
+

@@ -8,4 +8,4 @@ execute @a[tag=!init] ~ ~ ~ function events/init-player
 execute @a[tag=init] ~ ~ ~ kill @e[name="§aSkyBlock Menu §7(Right Click)"]
 
 # Menu Chest - Open
-execute @a[tag=init] ~ ~ ~ function menus/chest-menu-open
+# execute @a[tag=init] ~ ~ ~ function menus/chest-menu-open
