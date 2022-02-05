@@ -161,7 +161,7 @@
 						"max_rider_count": 2,
 						"lock_rider_rotation": 0
 					}
-				] 
+				]
 			},
 			"minecraft:conditional_bandwidth_optimization": {},
 			"minecraft:scaffolding_climber": {},
@@ -196,9 +196,9 @@
 								}
 							]
 						},
-						"event": "astro:holding_item"
+						"event": "cope:holding_item"
 					},
-                    {
+					{
 						"filters": {
 							"none_of": [
 								{
@@ -210,7 +210,7 @@
 								}
 							]
 						},
-						"event": "astro:remove_menu"
+						"event": "cope:remove_menu"
 					}
 				]
 			}
@@ -249,32 +249,20 @@
 					]
 				}
 			},
-            "astro:holding_item": {
-                        "run_command": {
-                            "command": [
-                                "execute @a[tag=init] ~ ~ ~ function menus/chest-menu-open"
-                            ]
-                    }
-            },
-            "astro:remove_menu": {
-                "run_command": {
-                    "command": [
-                        "execute @a[tag=init] ~ ~ ~ tp @e[type=cope:invisible_chest_minecart] 0 0 0"
-                    ]
-                }
-            },
-			"bridge:remove_command_id_1": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command"
+			"cope:holding_item": {
+				"run_command": {
+					"command": [
+						"execute @a[tag=init] ~ ~ ~ function menus/chest-menu-open"
 					]
-				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
+				}
+			},
+			"cope:remove_menu": {
+				"run_command": {
+					"command": [
+						"execute @a[tag=init] ~ ~ ~ tp @e[type=cope:invisible_chest_minecart] 0 0 0"
 					]
 				}
 			}
-        }
-    }
+		}
+	}
 }
