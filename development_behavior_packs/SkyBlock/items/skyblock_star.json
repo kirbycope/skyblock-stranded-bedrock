@@ -1,15 +1,31 @@
 {
-    "format_version": "1.10",
+    "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "cope:skyblock_star",
-            "is_spawnable": false,
-            "is_summonable": true,
-            "is_experimental": false
+            "identifier": "cope:skyblock_star"
         },
         "components": {
             "minecraft:hand_equipped": false,
-            "minecraft:foil": true
+            "minecraft:foil": true,
+            "minecraft:icon": {
+                "texture": "nether_star"
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "cope:summon_event",
+                    "target": "self"
+                }
+             }
+        },
+        "events": {
+          "cope:summon_event":{
+             "run_command": {
+                 "command": [
+                     "summon cope:invisible_chest_minecart"
+                 ],
+                "target": "self"
+             }
+          }
         }
     }
 }

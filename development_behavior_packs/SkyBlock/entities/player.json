@@ -8,11 +8,13 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"bridge_execute_commands"
+					"bridge_execute_commands",
+					"teleport_minecart"
 				]
 			},
 			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_player.execute_commands"
+				"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
+				"teleport_minecart": "controller.animation.teleport_minecart"
 			}
 		},
 		"component_groups": {
