@@ -1,4 +1,5 @@
 # [Sidebar] SKYBLOCK
+scoreboard objectives remove skyblock-sidebar
 scoreboard objectives add skyblock-sidebar dummy "§l§eSKYBLOCK"
 scoreboard objectives setdisplay sidebar skyblock-sidebar
 scoreboard players set "§7 MM/DD/YY §8local" skyblock-sidebar 10
