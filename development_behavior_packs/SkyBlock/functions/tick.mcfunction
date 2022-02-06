@@ -12,3 +12,6 @@ execute @a[tag=init] ~ ~ ~ kill @e[name="§aSkyBlock Menu §7(Right Click)"]
 
 # Sidebar - SKYBLOCK
 execute @a[tag=init] ~ ~ ~ function sidebar/skyblock
+
+# Actionbar - Health, Defense, and Mana
+execute @a[tag=init] ~ ~ ~ function actionbar/health-defense-mana

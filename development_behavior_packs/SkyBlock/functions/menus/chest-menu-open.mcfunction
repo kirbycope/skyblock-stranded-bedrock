@@ -1,6 +1,9 @@
 # Teleport the Chest Minecart to the player's face if one already exists
 execute @a[tag=init] ~ ~ ~ tp @e[type=cope:invisible_chest_minecart] ~ ~1.2 ~
 
+# Make the Chest Minecart unbreakable
+effect @e[type=cope:invisible_chest_minecart] resistance 255 255 true
+
 ## SkyBlock Menu ##
 replaceitem entity @e[type=cope:invisible_chest_minecart] slot.inventory 4 skull 1 3
 replaceitem entity @e[type=cope:invisible_chest_minecart] slot.inventory 10 diamond_sword

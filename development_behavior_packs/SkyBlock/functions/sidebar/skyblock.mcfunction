@@ -1,9 +1,9 @@
 # [Sidebar] SKYBLOCK
 scoreboard objectives add skyblock-sidebar dummy "§l§eSKYBLOCK"
 scoreboard objectives setdisplay sidebar skyblock-sidebar
-scoreboard players set "§7 01/31/22 §8local" skyblock-sidebar 10
+scoreboard players set "§7 MM/DD/YY §8local" skyblock-sidebar 10
 scoreboard players set "   " skyblock-sidebar 9
-scoreboard players set " Early Summer 2nd " skyblock-sidebar 8
+scoreboard players set " Early Spring 14th " skyblock-sidebar 8
 function sidebar/7
 scoreboard players set "§a <> Your Island" skyblock-sidebar 6
 scoreboard players set "§a () Stranded" skyblock-sidebar 5
