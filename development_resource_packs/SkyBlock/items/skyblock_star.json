@@ -5,9 +5,7 @@
             "identifier": "cope:skyblock_star"
         },
         "components": {
-            "minecraft:icon": {
-                "texture": "nether_star"
-            }
+            "minecraft:icon": "nether_star"
         }
     }
 }
