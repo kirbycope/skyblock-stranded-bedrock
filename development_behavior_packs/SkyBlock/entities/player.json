@@ -8,12 +8,10 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"bridge_execute_commands",
 					"teleport_minecart"
 				]
 			},
 			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
 				"teleport_minecart": "controller.animation.teleport_minecart"
 			}
 		},
@@ -248,20 +246,6 @@
 				"remove": {
 					"component_groups": [
 						"minecraft:raid_trigger"
-					]
-				}
-			},
-			"cope:holding_item": {
-				"run_command": {
-					"command": [
-						"execute @a[tag=init] ~ ~ ~ function menus/chest-menu-open"
-					]
-				}
-			},
-			"cope:remove_menu": {
-				"run_command": {
-					"command": [
-						"execute @a[tag=init] ~ ~ ~ tp @e[type=cope:invisible_chest_minecart] 0 0 0"
 					]
 				}
 			}
