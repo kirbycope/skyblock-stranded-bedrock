@@ -8,22 +8,26 @@
 						{
 							"teleport": "query.get_equipped_item_name == 'skyblock_star'"
 						},
-                        {
-                            "no-teleport": "query.get_equipped_item_name != 'skyblock_star'" 
-                        }
+						{
+							"no-teleport": "query.get_equipped_item_name != 'skyblock_star'"
+						}
 					]
 				},
 				"teleport": {
-					"on_entry": ["/teleport @e[type=cope:invisible_chest_minecart] ~ ~1.2 ~"],
-                    "transitions": [
+					"on_entry": [
+						"/teleport @e[type=cope:invisible_chest_minecart] ~ ~1.2 ~"
+					],
+					"transitions": [
 						{
 							"default": "query.is_alive"
 						}
 					]
 				},
 				"no-teleport": {
-					"on_entry": ["/teleport @e[type=cope:invisible_chest_minecart] 0 -64 0"],
-                    "transitions": [
+					"on_entry": [
+						"/teleport @e[type=cope:invisible_chest_minecart] 0 -64 0"
+					],
+					"transitions": [
 						{
 							"default": "query.is_alive"
 						}

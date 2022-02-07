@@ -5,6 +5,9 @@
             "identifier": "cope:skyblock_star"
         },
         "components": {
+            "minecraft:display_name": {
+                "value": "§aSkyBlock Menu §7(Right Click)"
+            },
             "minecraft:hand_equipped": false,
             "minecraft:foil": true,
             "minecraft:icon": {
@@ -15,17 +18,17 @@
                     "event": "cope:summon_event",
                     "target": "self"
                 }
-             }
+            }
         },
         "events": {
-          "cope:summon_event":{
-             "run_command": {
-                 "command": [
-                     "summon cope:invisible_chest_minecart"
-                 ],
-                "target": "self"
-             }
-          }
+            "cope:summon_event": {
+                "run_command": {
+                    "command": [
+                        "summon cope:invisible_chest_minecart"
+                    ],
+                    "target": "self"
+                }
+            }
         }
     }
 }
