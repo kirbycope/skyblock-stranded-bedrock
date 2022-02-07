@@ -8,7 +8,7 @@
         "default": "minecart"
       },
       "textures": {
-        "default": "textures/entity/minecart"
+        "default": "textures/entity/invisible_chest_minecart"
       },
       "geometry": {
         "default": "geometry.minecart.v1.8"
