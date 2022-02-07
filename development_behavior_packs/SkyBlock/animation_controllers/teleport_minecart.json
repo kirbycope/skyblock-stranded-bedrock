@@ -15,7 +15,7 @@
 				},
 				"teleport": {
 					"on_entry": [
-						"/teleport @e[type=cope:invisible_chest_minecart] ~ ~1.2 ~"
+						"/function menus/chest-menu-open"
 					],
 					"transitions": [
 						{
